@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_LATESTARTICLE_NAME</name>
+	<version>1.0.0</version>
+	<creationDate>August 2018</creationDate>
+	<author>Simon Champion</author>
+	<authorEmail>simon@simonchampion.net</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>(C) 2018 Simon Champion</copyright>
+	<license>GNU/GPLv2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>PLG_SYSTEM_LATESTARTICLE_DESCRIPTION</description>
+
+	<files>
+		<filename>index.html</filename>
+		<filename plugin="latestarticle">latestarticle.php</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_latestarticle.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="url_pattern" type="url" description="PLG_SYSTEM_LATESTMARTICLE_URLPATTERN_DESC" label="PLG_SYSTEM_LATESTARTICLE_URLPATTERN_LABEL" default="[category]/latest" />
+			</fieldset>
+		</fields>
+	</config>
+    <updateservers>
+        <server type="extension" priority="2" name="Latest Article Updates">https://raw.githubusercontent.com/Spudley/plg_system_latestarticle/master/update.xml</server>
+    </updateservers>
+</extension>
