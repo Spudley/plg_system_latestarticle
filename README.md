@@ -11,6 +11,7 @@ Version History
 ----------------
 
 * 1.0.0
+* 1.0.1 - Oops. Was getting the oldest article instead of the latest.
 
 
 Installation

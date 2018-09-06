@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.0" type="plugin" group="system" method="upgrade">
 	<name>PLG_SYSTEM_LATESTARTICLE_NAME</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<creationDate>August 2018</creationDate>
 	<author>Simon Champion</author>
 	<authorEmail>simon@simonchampion.net</authorEmail>
